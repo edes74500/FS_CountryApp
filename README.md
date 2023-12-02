@@ -4,6 +4,4 @@ Un exercice de From-Scratch pour s'entrainer a coder en JS. Le but etant de fetc
 
 ## [Decouvrir l'app Country](https://edes74500.github.io/FS_CountryApp/)
 
-## Screenshot:
-
 **![app country Player](./assets/img/Screenshot/desktop.png)**

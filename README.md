@@ -6,4 +6,4 @@ A simple music player that cycles through 2 songs with a click of a button. This
 
 ## Screenshot:
 
-**![app country Player](./assets/Screenshot/desktop.png)**
+**![app country Player](./assets/img/Screenshot/desktop.png)**

@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: auto;
+  background-image: url(/assets/img/world-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.filter-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+input {
+  margin: 20px auto;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: 0.2s;
+}
+input:focus {
+  border-radius: 30px;
+  background: rgb(238, 238, 238);
+}
+.range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="range"] {
+  width: 250px;
+  margin: 0 10px 10px 0;
+}
+.range-container span {
+  font-size: 1.2rem;
+  color: white;
+  transform: translateY(-3px);
+}
+button {
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.countries-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  li {
+    min-height: 200px;
+    background-color: black;
+    color: white;
+    min-width: 200px;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    img {
+      width: 90%;
+      display: block;
+      max-width: 100px;
+      margin: auto;
+    }
+  }
+}

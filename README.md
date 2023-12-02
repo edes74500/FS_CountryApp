@@ -1,6 +1,6 @@
-# music-player
+# Country App
 
-A simple music player that cycles through 2 songs with a click of a button. This project is my solution to this [**challenge**](https://devchallenges.io/challenge/36) found on devChallenge. I used HTML, CSS and vanilla JS with a focus on better folder structuring and implementing JS modules.
+Un exercice de From-Scratch pour s'entrainer a coder en JS. Le but etant de fetch des donnees sur une API pui de faire un map. Ajout de fonctionnalite avec des filter, des sorts et des slices
 
 ## [Decouvrir l'app Country](https://edes74500.github.io/FS_CountryApp/)
 
